@@ -1,0 +1,179 @@
+/*Couleurs :
+- Jaune : #cfa205
+- texte gris : #7a7a7a
+- fond de la barre sociale : #e8e8e8*/
+
+/*Typos :
+Les fonts utilisés sur le site sont :
+- 'Josefin Sans' (https://www.google.com/fonts#UsePlace:use/Collection:Josefin+Sans)
+- 'Bitter' (https://www.google.com/fonts#UsePlace:use/Collection:Bitter)
+- La taille du titre principal est de 133px
+- Les polices des blocs de texte sous les images sont de 14px
+- Les autres titres sont à 18px*/
+
+
+@font-face {
+	font-family: 'Mono Social Icons Font';
+	src: url('../font/MonoSocialIconsFont-1.10.eot');
+	src: url('../font/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+	url('../font/MonoSocialIconsFont-1.10.woff') format('woff'),
+	url('../font/MonoSocialIconsFont-1.10.ttf') format('truetype'),
+	url('../font/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+	src: url('../font/MonoSocialIconsFont-1.10.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url("../images/bg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	min-height: 100%;
+	font-family: 'Bitter';
+	color: #7a7a7a;
+
+}
+
+
+
+/*////////////////////*/
+
+.main {
+	margin: 0 auto;
+	width: 1020px;
+	min-height: 100%;
+}
+
+/*//////////////////*/
+
+header {
+	background-color: black;
+	height: 320px;
+	padding-bottom: 5%;
+	margin: 0;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-around;
+	margin: auto;
+	width: 80%;
+	padding: 60px 0;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+nav ul li {
+	list-style: none;
+	
+}
+
+nav ul li a {
+	text-decoration: none;
+	font-family: 'Josefin Sans';
+	color: white;
+}
+
+
+.selected {
+	color: #cfa205;
+}
+
+
+h1 {
+	font-family: 'Josefin Sans';
+	text-align: center;
+	color: #cfa205;
+	font-size: 133px;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin: 0;
+
+}
+
+.subtitle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 1%;
+	color: #cfa205;
+}
+
+.subtitle p {
+	margin: 0 2%;
+}
+
+.subtitle i {
+	font-size: 0.5em;
+}
+
+/*//////////////////////////*/
+
+.social {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2em;
+	height: 60px;
+	background-color: #e8e8e8;
+	/*padding: 1%;*/
+	font-family: 'Mono Social Icons Font';
+}
+
+.symbol {
+	margin: 0 5%;
+	color: #7a7a7a;
+}
+
+/*///////////////////////*/
+
+.contenu {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	padding: 60px;
+}
+
+.intro {
+	height: 90px;
+	text-align: center;
+	font-weight: bold;
+	border-bottom: solid 1px #7a7a7a;
+	padding-bottom: 60px;
+	font-size: 18px;
+}
+
+.articles {
+	display: flex;
+	flex-direction: row;
+	padding-top: 50px;
+	justify-content: space-between;
+
+}
+
+.articles h3 {
+	font-size: 18px;
+	color: black;
+	text-transform: uppercase;
+	margin: 30px 0 30px 0;
+}
+
+.articles p {
+	font-size: 14px;
+	margin: 0;
+
+}
+
+.col {
+	display: flex;
+	flex-direction: column;
+	width: 260px;
+
+
+}
+
